@@ -1,0 +1,6 @@
+[build]
+    functions = "server/functions"
+    command = "echo 'No build step for React Native app'"
+
+[functions]
+  node_bundler = "esbuild"
