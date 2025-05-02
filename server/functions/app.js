@@ -11,7 +11,7 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
 
-function sendNotificationToDevice(token, message, res) {
+function sendNotificationToDevice(token, res) {
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
   const payload = {
     data: {

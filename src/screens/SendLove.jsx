@@ -1,20 +1,21 @@
-import {View, Image} from 'react-native';
+import {View, Image, ActivityIndicator} from 'react-native';
 import AppText from '../components/AppText';
 import AppButton from '../components/AppButton';
 import HeadsAndHeart from '../components/HeadsAndHeart';
 import {sendNotification, messaging} from '../utils/fcmUtils';
 import {onMessage} from '@react-native-firebase/messaging';
 
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 
 export default function SendLove({navigation, userData}) {
+  const [loading, setLoading] = useState(false);
+
   const handleSendLove = async () => {
+    setLoading(true);
     // Logic to send love
-    sendNotification(
-      userData.partnerFcmToken,
-      'Love Poopu',
-      `${userData.nickname} has sent you love!`,
-    );
+    sendNotification(userData.partnerFcmToken).then(() => {
+      setLoading(false);
+    });
   };
 
   useEffect(() => {
@@ -34,7 +35,7 @@ export default function SendLove({navigation, userData}) {
         justifyContent: 'space-around',
         alignItems: 'center',
       }}>
-      <AppText type="heading">Love Poopu</AppText>
+      <AppText type="heading">Love {userData.partnerName}</AppText>
       <Image
         style={{position: 'absolute'}}
         source={require('../assets/infinityGraphics.png')}
@@ -42,10 +43,16 @@ export default function SendLove({navigation, userData}) {
 
       <HeadsAndHeart userData={userData} />
 
-      <AppButton
-        title={`Send Love to ${userData.partnerName}`}
-        onPress={handleSendLove}
-      />
+      {loading ? (
+        <View>
+          <ActivityIndicator size="large" color="#fff" />
+        </View>
+      ) : (
+        <AppButton
+          title={`Send Love to ${userData.partnerName}`}
+          onPress={handleSendLove}
+        />
+      )}
     </View>
   );
 }
