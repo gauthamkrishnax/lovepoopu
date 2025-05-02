@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/background.jpg",
+      "sha1": "8602e12b8fc246de772cce37dc780954f4dac116"
+    },
+    {
+      "path": "src/assets/Melodrama Bold.ttf",
+      "sha1": "c6bffd456480aed9b5fce65c095ccb3b70ae558f"
+    },
+    {
+      "path": "src/assets/Melodrama Light.ttf",
+      "sha1": "1d6df82e254b26a80a20771b9a7f306dea28179d"
+    }
+  ]
+}
