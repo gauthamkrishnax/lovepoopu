@@ -9,12 +9,10 @@ export const getFcmToken = async () => {
     return token;
 };
 
-export const sendNotification = async (targetFcmToken, title, body) => {
+export const sendNotification = async (targetFcmToken) => {
     try {
         const response = await axios.post("https://lovepoopu.netlify.app/.netlify/functions/app", {
-            token: targetFcmToken,
-            title: title,
-            message: body,
+            token: targetFcmToken
         })
         console.log('Notification sent successfully:', response.data);
     } catch (error) {

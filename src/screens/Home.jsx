@@ -49,5 +49,6 @@ const screenOptions = {
     letterSpacing: 0.8,
     fontSize: 16,
     color: '#fff', // Change text color
+    lineHeight: 20,
   },
 };

@@ -48,11 +48,11 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req, res) => {
-  const { token, message } = JSON.parse(req.body);
-  if (!token || !message) {
-    return res.status(400).send("Token and message are required");
+  const { token } = JSON.parse(req.body);
+  if (!token) {
+    return res.status(400).send("Token is required");
   }
-  sendNotificationToDevice(token, message, res);
+  sendNotificationToDevice(token, res);
 });
 
 app.use("/.netlify/functions/app", router);

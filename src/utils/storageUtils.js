@@ -29,3 +29,16 @@ export async function getDataFromStorage(key) {
         return null;
     }
 }
+
+/**
+ * Removes a key from AsyncStorage.
+ * @param {string} key - The key to remove from storage.
+ */
+export async function removeItemFromStorage(key) {
+    try {
+        await AsyncStorage.removeItem(key);
+        console.log(`Removed key: ${key}`);
+    } catch (error) {
+        console.error(`Error removing key "${key}":`, error);
+    }
+}

@@ -1,11 +1,12 @@
 import {StyleSheet, Text} from 'react-native';
 
-export default function AppText({children, type, textAlign}) {
+export default function AppText({children, type, textAlign, margin}) {
   return (
     <Text
       style={{
         ...styles[type ? type : 'heading'],
         ...styles[textAlign ? textAlign : 'center'],
+        marginVertical: margin ? margin : 0,
       }}>
       {children}
     </Text>

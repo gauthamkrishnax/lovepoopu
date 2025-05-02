@@ -4,6 +4,7 @@ import AppButton from '../components/AppButton';
 import HeadsAndHeart from '../components/HeadsAndHeart';
 import {sendNotification, messaging} from '../utils/fcmUtils';
 import {onMessage} from '@react-native-firebase/messaging';
+import {sendLocalNotification} from '../utils/localNotification';
 
 import {useEffect, useState} from 'react';
 
@@ -20,8 +21,8 @@ export default function SendLove({navigation, userData}) {
 
   useEffect(() => {
     const unsubscribe = onMessage(messaging, remoteMessage => {
-      console.log('A new FCM message arrived!', remoteMessage);
       // Handle the message or display a notification
+      sendLocalNotification(remoteMessage.data.title, remoteMessage.data.body);
     });
 
     // Unsubscribe from the listener on component unmount
