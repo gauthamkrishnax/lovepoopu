@@ -21,7 +21,7 @@ export async function scheduleSpecialDayNotifications(SPECIAL_DATES) {
     for (const item of SPECIAL_DATES) {
         const { date, title, body } = item;
 
-        const triggerDate = new Date(`${date}T23:37:00`); // 9 AM on that day
+        const triggerDate = new Date(`${date}T09:00:00`); // 9 AM on that day
 
         const trigger = {
             type: TriggerType.TIMESTAMP,
