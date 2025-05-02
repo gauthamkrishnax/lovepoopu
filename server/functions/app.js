@@ -4,6 +4,7 @@ const app = express();
 const router = express.Router();
 const admin = require('firebase-admin');
 
+const messages = require('../messages.json');
 const serviceAccount = require("../firebasekey.json");
 
 admin.initializeApp({
@@ -11,14 +12,15 @@ admin.initializeApp({
 });
 
 function sendNotificationToDevice(token, message, res) {
+  const randomMessage = messages[Math.floor(Math.random() * messages.length)];
   const payload = {
     data: {
-      title: 'Love you so much',
-      body: message,
+      title: randomMessage.title,
+      body: randomMessage.body,
     },
     notification: {
-      title: 'Love you so much',
-      body: message,
+      title: randomMessage.title,
+      body: randomMessage.body,
     },
 
     android: {
