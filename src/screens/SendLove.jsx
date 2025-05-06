@@ -17,15 +17,19 @@ export default function SendLove({navigation, userData}) {
   const handleSendLove = async () => {
     setLoading(true);
     // Logic to send love
-    // sendNotification(userData.partnerFcmToken).then(() => {
-    setLoading(false);
-    // });
+    sendNotification({
+      partnerToken: userData.partnerFcmToken,
+      nickName: userData.nickname,
+      partnerName: userData.partnerName,
+    }).then(() => {
+      setLoading(false);
+    });
     childRef.current?.triggerAnimation(true);
     // Optionally, you can set up a timer to reverse the animation after a delay
     setTimeout(() => {
       childRef.current?.triggerAnimation();
       console.log('triggering burst');
-      triggerBurst(40);
+      triggerBurst(10);
     }, 2000); // Reverse after 2 seconds
   };
 
@@ -39,7 +43,7 @@ export default function SendLove({navigation, userData}) {
       setTimeout(() => {
         childRef.current?.triggerAnimation();
         console.log('triggering burst');
-        triggerBurst(40);
+        triggerBurst(10);
         setLoading(false);
       }, 2000); // Reverse after 2 seconds
     });

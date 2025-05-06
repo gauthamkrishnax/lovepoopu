@@ -1,166 +1,470 @@
 [
     {
-        "title": "Thinking of You 💭",
-        "body": "Just wanted to remind you that you mean the world to me. ❤️"
+        "title": "Thinking of You 😘",
+        "body": "Are you blushing, or is it just {partnerName} on your mind again?"
     },
     {
-        "title": "You’re My Favorite Person 💑",
-        "body": "No matter how busy the day gets, you're always in my heart."
+        "title": "Love Injection 💉",
+        "body": "{nickName} prescribed you 3 kisses and a cuddle. Side effects: blushing."
     },
     {
-        "title": "You Make My Heart Smile 😊",
-        "body": "Life’s better with you. Just saying. 💕"
+        "title": "Touch Me Text 😏",
+        "body": "This notification is basically a virtual neck kiss. You’re welcome."
     },
     {
-        "title": "Love Ping! 📲",
-        "body": "This is your daily reminder that someone loves you madly."
+        "title": "Hug Dealer 🐻",
+        "body": "{partnerName}, {nickName} is dealing warm hugs today. Wanna score one?"
     },
     {
-        "title": "My Love Language is Notifications 😘",
-        "body": "Here's a little ping to say “I miss you.”"
+        "title": "Boop Alert 🐽",
+        "body": "*boop* {nickName} just mentally booped your nose, {partnerName}"
     },
     {
-        "title": "Hey You, Cutie 🧸",
-        "body": "I just felt like bothering you with love. Deal with it. 😋"
+        "title": "Certified Cuteness 🧁",
+        "body": "You're 100% certified adorable, {partnerName}. Deal with it."
     },
     {
-        "title": "Ping! Love Inside 💌",
-        "body": "This message contains 100% pure affection. Open with care. 💗"
+        "title": "Wink Wink 😉",
+        "body": "If {nickName} were there right now... you'd be very distracted 😏"
     },
     {
-        "title": "I Did a Thing… 😇",
-        "body": "I fell for you again. Oops. ❤️"
+        "title": "Bed Weather Alert 🌧️",
+        "body": "Perfect day for cuddles. {nickName} volunteers as tribute."
     },
     {
-        "title": "Luv Update Available 🛠️",
-        "body": "Download my hug now. It’s bug-free and super warm!"
+        "title": "Mental Hug 🫂",
+        "body": "Close your eyes... {partnerName}, did you feel that? Yup, a hug from {nickName}."
     },
     {
-        "title": "OTP Incoming! 📦",
-        "body": "One True Pairing alert: You + Me = ❤️"
+        "title": "Hotness Detected 🔥",
+        "body": "Just a heads-up: you’re too hot to be legal, {partnerName}."
     },
     {
-        "title": "You Stole My Heart... 🍕",
-        "body": "But I’ll let you keep it if you bring pizza."
+        "title": "Cuddle Raid ⚔️",
+        "body": "{nickName} is invading your personal space with snuggles!"
     },
     {
-        "title": "Are You WiFi? 📡",
-        "body": "Because I’m feeling a strong connection."
+        "title": "Love Snack 🍫",
+        "body": "You're the snack. {nickName} is hungry. Do the math."
     },
     {
-        "title": "You're the Peanut Butter to My Jelly 🥪",
-        "body": "And today I’m feeling extra spreadable. 😘"
+        "title": "Spicy Thought 🌶️",
+        "body": "Let’s just say {nickName} is thinking thoughts... not safe for public."
     },
     {
-        "title": "Love Alert: Cuteness Overload 🚨",
-        "body": "I love you more than I love scrolling memes. That’s big."
+        "title": "Text Me Maybe 📱",
+        "body": "Just imagine {partnerName} whispering: 'text me, baby 😘'"
     },
     {
-        "title": "You're My Favorite Distraction 💻❤️",
-        "body": "Every time I think of you, I forget what I was doing."
+        "title": "Netflix & You 🛋️",
+        "body": "{partnerName}, skip the movie. Let’s just make out instead – {nickName}"
     },
     {
-        "title": "Certified Snuggle Dealer 🐻",
-        "body": "Claim your free cuddles—limited time offer!"
+        "title": "Booty Call Lite 🍑",
+        "body": "Low-calorie flirt: {nickName} misses your face... and maybe your butt."
     },
     {
-        "title": "Heads Up: I Adore You 😍",
-        "body": "No need to reply, just bask in my love."
+        "title": "Not-So-Innocent Ping 🔔",
+        "body": "This is your flirty ping from {nickName}. Naughty level: medium."
     },
     {
-        "title": "100% Romantic Energy Detected 💘",
-        "body": "Brace yourself... I’m about to love-bomb you!"
+        "title": "Clothes? Optional. 🩳",
+        "body": "Today’s vibe: {partnerName}, minimal clothes, max cuddles."
     },
     {
-        "title": "Can I Keep You Forever? 🔒",
-        "body": "Just checking if the cutest human is still mine."
+        "title": "Wholesome Chaos ❤️‍🔥",
+        "body": "{nickName} thinks you're equal parts adorable and dangerously kissable."
     },
     {
-        "title": "Guess Who's in Love Again? 🥹",
-        "body": "Spoiler: It’s me. With you. Always."
+        "title": "Flirt Upgrade ⬆️",
+        "body": "Flirting has been upgraded to level: dangerously charming."
     },
     {
-        "title": "Do Not Disturb—Loving You 🛑",
-        "body": "All systems are busy thinking about you."
+        "title": "Missing You 😩",
+        "body": "Every minute without you feels like an hour. Time owes me, {partnerName}."
     },
     {
-        "title": "Warning: Romantic Vibes Incoming 💞",
-        "body": "Your partner is about to smother you with love."
+        "title": "Craving Alert 😏",
+        "body": "Craving something sweet... oh wait, it’s you, {partnerName}."
     },
     {
-        "title": "Is It Hot in Here? 🔥",
-        "body": "Oh wait, it’s just you lighting up my heart."
+        "title": "Shower Thoughts 🚿",
+        "body": "Just had a shower thought... mostly about you... *blushes*"
     },
     {
-        "title": "You're Stuck in My Head 🎧",
-        "body": "But it’s okay, I like the sound of you."
+        "title": "Emoji Mood 🔥🍑💦",
+        "body": "Decode this: {nickName} ➡️ {partnerName} 🔥🍑💦"
     },
     {
-        "title": "Love Reminder 📝",
-        "body": "You're doing amazing at being my person."
+        "title": "Love GPS 🗺️",
+        "body": "Wherever you are, {nickName} just mentally kissed your forehead."
     },
     {
-        "title": "Breaking News! 📰",
-        "body": "You're still the best part of my life."
+        "title": "Pillow Talk Preview 🛏️",
+        "body": "If {nickName} were next to you right now, you'd be blushing."
     },
     {
-        "title": "Emoji Can’t Express This 💯",
-        "body": "But just know... I’m crazy about you."
+        "title": "Phone’s Too Cold ❄️",
+        "body": "Warm this phone up by texting {nickName} something spicy."
     },
     {
-        "title": "Love Notification 🔔",
-        "body": "No reason. Just love. And more love."
+        "title": "Cute But Dangerous 😈",
+        "body": "{partnerName}, you’re dangerously attractive. Proceed with caution."
     },
     {
-        "title": "Random Act of Love 💕",
-        "body": "I randomly chose to love you again. Surprise!"
+        "title": "Kiss Transfer 💋",
+        "body": "{nickName} just sent you a kiss. If it doesn't reach, demand a real one."
     },
     {
-        "title": "Spoiler Alert! 📣",
-        "body": "I’m deeply, madly, and endlessly into you."
+        "title": "Lips Need Work 💄",
+        "body": "{partnerName}, {nickName} says your lips are unemployed. Time to kiss."
     },
     {
-        "title": "Your Face = My Happy Place 😍",
-        "body": "I think I smiled just thinking of you."
+        "title": "Heart Ping 💗",
+        "body": "Hey, {partnerName}, someone’s heart is pinging yours... name starts with {nickName}."
     },
     {
-        "title": "My Day Needed You 🫶",
-        "body": "So I sent this message. Feel hugged."
+        "title": "Your Daily Dose 💊",
+        "body": "Take 1 {nickName} every morning. May cause intense smiling."
     },
     {
-        "title": "Pause Everything! 🛑",
-        "body": "Time for a quick 'I love you' break."
+        "title": "Booty Appreciation 🍑",
+        "body": "This is a booty appreciation ping. That’s it. That’s the message."
     },
     {
-        "title": "Hug Incoming 🤗",
-        "body": "It's virtual, but it's real. Promise!"
+        "title": "Snuggle Forecast ☁️",
+        "body": "Today’s forecast: 100% chance of {nickName} needing your hugs."
     },
     {
-        "title": "Permission to Flirt? 😏",
-        "body": "Too late. Already doing it."
+        "title": "Bite-Sized Love 🦷",
+        "body": "Can I bite you? No? Just mentally then. ~{nickName}"
     },
     {
-        "title": "This Just In... 🧠💓",
-        "body": "You’re constantly on my mind."
+        "title": "Caution: Flammable 🔥",
+        "body": "You + {nickName} = heat warning. Proceed with lip balm."
     },
     {
-        "title": "Emergency Kiss Needed 🚨",
-        "body": "Please respond with affection. Or snacks."
+        "title": "Nap Buddy Needed 💤",
+        "body": "This nap would be 300% better if you were here, {partnerName}."
     },
     {
-        "title": "Heart Status: Taken 💘",
-        "body": "By the most amazing human—yes, you."
+        "title": "Love Binge 🍿",
+        "body": "Can we binge each other instead of a show? Asking for {nickName}."
     },
     {
-        "title": "You're My Plot Twist 🎬",
-        "body": "And the best part of my story."
+        "title": "Underwear Optional 👀",
+        "body": "Just checking: is this a pants day or a flirty message day?"
     },
     {
-        "title": "Love Transmission Started 📡",
-        "body": "Receiving? Because I’m sending everything your way."
+        "title": "Missing That Smirk 😏",
+        "body": "{nickName} says your smirk should come with a warning label."
     },
     {
-        "title": "You’re Still My Favorite Notification 🔔",
-        "body": "And I hope this one made you smile. 😊"
+        "title": "You’re Illegal 😵",
+        "body": "You're too hot to be allowed in public, {partnerName}. Stay home (with {nickName})"
+    },
+    {
+        "title": "Love Math 📐",
+        "body": "You + Me = 💥. Algebra could never."
+    },
+    {
+        "title": "Wink Delivery 😉",
+        "body": "Sending a flirty wink your way. Collect at own risk."
+    },
+    {
+        "title": "Banana Emoji 🍌",
+        "body": "No context. Just a banana. Make it weird."
+    },
+    {
+        "title": "Lotion Reminder 🧴",
+        "body": "Don’t forget lotion. Dry skin is no excuse for missing kisses."
+    },
+    {
+        "title": "Simp Level Max 🫠",
+        "body": "Yep, {nickName} is simping for you again. Hard."
+    },
+    {
+        "title": "Rizz Rocket 🚀",
+        "body": "Warning: {nickName} has activated maximum flirt thrusters."
+    },
+    {
+        "title": "Butterfly Check 🦋",
+        "body": "Did your stomach just flip? Because {partnerName} thought of {nickName} again."
+    },
+    {
+        "title": "You’re the Problem 😩",
+        "body": "You're the reason {nickName} can't focus. And it's cute."
+    },
+    {
+        "title": "Lip Service 💋",
+        "body": "Your lips are due for maintenance. {nickName} offers free service."
+    },
+    {
+        "title": "Meme Please 📸",
+        "body": "Send {nickName} a meme or a selfie. Or both. Or just you."
+    },
+    {
+        "title": "Bed = Lonely 🛏️",
+        "body": "This bed is too big and empty without {partnerName}. Fix it?"
+    },
+    {
+        "title": "Shameless Flirt 🚨",
+        "body": "{nickName} is about to send you a text that’s 80% charm, 20% chaos."
+    },
+    {
+        "title": "Emoji Translation 🔤",
+        "body": "💦🔥🍑 = You. Me. Cuddles. Interpret that."
+    },
+    {
+        "title": "Plot Twist 📚",
+        "body": "Plot twist: {nickName} kidnaps you for kisses."
+    },
+    {
+        "title": "Love Potion 🍷",
+        "body": "Drank something weird... now {nickName} can’t stop thinking about you."
+    },
+    {
+        "title": "Spank Bank Update 🍑",
+        "body": "Just uploaded another memory of you. The archive grows..."
+    },
+    {
+        "title": "Tension Rising 😳",
+        "body": "This notification is charged with tension. Blame {nickName}."
+    },
+    {
+        "title": "Do Not Disturb 🚪",
+        "body": "{partnerName}, let’s enter DND mode and pretend the world doesn’t exist."
+    },
+    {
+        "title": "Snack Attack 🍪",
+        "body": "{nickName} was craving snacks and accidentally thought of you, {partnerName}!"
+    },
+    {
+        "title": "Brain Glitch 🤯",
+        "body": "Tried to focus… but my brain said ‘{partnerName}’ over and over. Thanks a lot."
+    },
+    {
+        "title": "Cuteness Overload 💥",
+        "body": "{nickName} just short-circuited from thinking about your face, {partnerName}."
+    },
+    {
+        "title": "You’ve Been Summoned 🧙‍♂️",
+        "body": "{partnerName}, {nickName} just whispered your name into the universe."
+    },
+    {
+        "title": "Lover Level: Goofy 🤪",
+        "body": "{nickName} says love is serious business… just kidding, they’re dancing in pajamas."
+    },
+    {
+        "title": "Emoji Explosion 💥",
+        "body": "Today’s mood: 😍😳😎🙈🎉💘 (translation: {partnerName} is on my mind)"
+    },
+    {
+        "title": "Coffee Needed ☕",
+        "body": "{nickName} is tired, but thinking of you is like espresso for their heart."
+    },
+    {
+        "title": "Toe Stub Alert 🚨",
+        "body": "Stubbed my toe. Blamed it on gravity. Then missed you."
+    },
+    {
+        "title": "You = Distraction 🙃",
+        "body": "Trying to adult… but thoughts of {partnerName} keep getting in the way!"
+    },
+    {
+        "title": "Too Much Cute 🧸",
+        "body": "Scientists say {partnerName} may be too adorable to function."
+    },
+    {
+        "title": "Important Ping 📣",
+        "body": "Just a reminder that {nickName} thinks you’re their favorite human."
+    },
+    {
+        "title": "Mood Swing 💘",
+        "body": "Was having a regular day… then remembered you exist. Boom. Better."
+    },
+    {
+        "title": "Fuzzy Brain 🧠",
+        "body": "Symptoms: smiling for no reason. Diagnosis: thought of {partnerName} again."
+    },
+    {
+        "title": "Relationship Goals 🥇",
+        "body": "Step 1: Meet {partnerName}. Step 2: Laugh forever. Step 3: Snacks."
+    },
+    {
+        "title": "Dance Battle 💃",
+        "body": "{nickName} challenges you to a dance-off. Loser buys snacks."
+    },
+    {
+        "title": "Nap Buddy Needed 💤",
+        "body": "This nap is missing something... oh yeah, it’s you, {partnerName}."
+    },
+    {
+        "title": "Smiley Face Alert 😁",
+        "body": "Your smile just hit my brain like a confetti cannon."
+    },
+    {
+        "title": "Brain Stuck 💭",
+        "body": "My brain’s been stuck on a loop: ‘{partnerName}, {partnerName}, {partnerName}…’"
+    },
+    {
+        "title": "T-Rex Love 🦖",
+        "body": "If {nickName} were a dinosaur, they'd be a snugglesaurus."
+    },
+    {
+        "title": "Bear Hug Incoming 🐻",
+        "body": "Close your eyes. Imagine a bear hug from {nickName}. Yep. That."
+    },
+    {
+        "title": "Banana Thoughts 🍌",
+        "body": "I don’t know why I thought of you while eating a banana. But I did."
+    },
+    {
+        "title": "Spoiler Alert 📺",
+        "body": "Plot twist: {nickName} loves you even more than pizza."
+    },
+    {
+        "title": "Serial Smoocher 💋",
+        "body": "{nickName} is a known smooch thief. Hide your face, {partnerName}!"
+    },
+    {
+        "title": "Mental Replay 📼",
+        "body": "Replaying your laugh in my head like it’s a favorite song."
+    },
+    {
+        "title": "Hug Glitch 🤗",
+        "body": "System error: insufficient hugs from {partnerName}. Please fix."
+    },
+    {
+        "title": "Dance Mode Activated 🕺",
+        "body": "{nickName} just busted a move. It was mostly for you."
+    },
+    {
+        "title": "Snack Couple Goals 🍟",
+        "body": "You’re the fries to my ketchup. Slightly salty, but perfect together."
+    },
+    {
+        "title": "Text or Treat 📬",
+        "body": "This is a trick… unless you reply. Then it’s a treat."
+    },
+    {
+        "title": "Cuddle Queue 🐑",
+        "body": "You are currently #1 in {nickName}’s cuddle queue. Please hold."
+    },
+    {
+        "title": "Laugh Supplier 😂",
+        "body": "{partnerName}, you’re my official source of giggles."
+    },
+    {
+        "title": "Weird Together 🤝",
+        "body": "Let’s stay weird and in love forever. Deal?"
+    },
+    {
+        "title": "Fluff Needed 🧼",
+        "body": "Feeling emotionally fluffy. Your face is probably to blame."
+    },
+    {
+        "title": "Cloud 9 Activated ☁️",
+        "body": "Warning: {nickName} is floating due to {partnerName}-related feelings."
+    },
+    {
+        "title": "Phone is Lonely 📱",
+        "body": "Your phone misses my texts. Fix it before it cries."
+    },
+    {
+        "title": "Love Emergency 🚑",
+        "body": "Emergency: low on cuddles. Please deliver {partnerName} immediately."
+    },
+    {
+        "title": "Snack or Smack? 🤔",
+        "body": "You’re cute enough to eat, but I’ll settle for hugging you."
+    },
+    {
+        "title": "Zoom Zoom 💨",
+        "body": "{nickName} wants to zoom over just to make you laugh."
+    },
+    {
+        "title": "Face Attack 🎯",
+        "body": "I miss your face. And your other face expressions. All of them."
+    },
+    {
+        "title": "Giggling Internally 🤭",
+        "body": "Just remembered something you did… still funny. Still cute."
+    },
+    {
+        "title": "Flirt Level: Goober 🥴",
+        "body": "{nickName} is flirting like a dork. You’ve been warned."
+    },
+    {
+        "title": "Teleportation Failed 🚫",
+        "body": "Tried to teleport to you. Ended up in the fridge."
+    },
+    {
+        "title": "Sock Thief 🧦",
+        "body": "{nickName} is hiding your socks so you don’t leave."
+    },
+    {
+        "title": "Battery Low 🔋",
+        "body": "Battery 5%—needs charging. Send love immediately."
+    },
+    {
+        "title": "Love Math 101 🧮",
+        "body": "You + me = weird and wonderful. No calculator needed."
+    },
+    {
+        "title": "Awkward Penguin 🐧",
+        "body": "Feeling like an awkward penguin. Missing my penguin partner."
+    },
+    {
+        "title": "You’re in Trouble 👀",
+        "body": "You’re in trouble for being too cute. Punishment: 1,000 hugs."
+    },
+    {
+        "title": "Thinking Cap On 🧢",
+        "body": "Thinking of you... again. This cap never comes off."
+    },
+    {
+        "title": "Cute Crimes Unit 🚔",
+        "body": "You’ve been charged with stealing {nickName}’s heart."
+    },
+    {
+        "title": "Tickle Warning ⚠️",
+        "body": "{nickName} is thinking of sneak attack tickles. Be ready."
+    },
+    {
+        "title": "Your Face 😳",
+        "body": "I miss your weird little face. And yes, it’s adorable."
+    },
+    {
+        "title": "Chaos Energy 🔋",
+        "body": "You and I together = pure fun chaos. I love it."
+    },
+    {
+        "title": "Secret Admirer 🕵️‍♀️",
+        "body": "It’s me. I’m the secret admirer. Spoiler: not a secret."
+    },
+    {
+        "title": "Pizza Love 🍕",
+        "body": "{nickName} loves you almost as much as pizza. Almost."
+    },
+    {
+        "title": "Nap Attack 😴",
+        "body": "Let’s nap together and ignore all responsibilities."
+    },
+    {
+        "title": "Miss You Meter 📉",
+        "body": "Missing you like a dog misses its human. Loudly."
+    },
+    {
+        "title": "Adorkable Alert 🚨",
+        "body": "You’ve reached maximum adorkable levels. Cuddle penalty applies."
+    },
+    {
+        "title": "Brain Offline 🔌",
+        "body": "Tried to work. Thought of you. Now brain is soup."
+    },
+    {
+        "title": "Knock Knock 🧠",
+        "body": "Knock knock. Who’s there? Thoughts of {partnerName}. Again."
     }
 ]

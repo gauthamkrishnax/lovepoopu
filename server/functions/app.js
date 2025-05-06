@@ -5,14 +5,23 @@ const router = express.Router();
 const admin = require('firebase-admin');
 
 const messages = require('../messages.json');
+
+function getRandomNotification(nickName, partnerName) {
+  const random = messages[Math.floor(Math.random() * messages.length)];
+  return {
+    title: random.title.replaceAll("{nickName}", nickName).replaceAll("{partnerName}", partnerName),
+    body: random.body.replaceAll("{nickName}", nickName).replaceAll("{partnerName}", partnerName),
+  };
+}
+
 const serviceAccount = require("../firebasekey.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
 
-function sendNotificationToDevice(token, res) {
-  const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+function sendNotificationToDevice(token, nickName, partnerName, res) {
+  const randomMessage = getRandomNotification(nickName, partnerName);
   const payload = {
     data: {
       title: randomMessage.title,
@@ -48,11 +57,11 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req, res) => {
-  const { token } = JSON.parse(req.body);
-  if (!token) {
+  const { partnerToken, nickName, partnerName } = JSON.parse(req.body);
+  if (!partnerName || !nickName || !partnerToken) {
     return res.status(400).send("Token is required");
   }
-  sendNotificationToDevice(token, res);
+  sendNotificationToDevice(partnerToken, nickName, partnerName, res);
 });
 
 app.use("/.netlify/functions/app", router);
